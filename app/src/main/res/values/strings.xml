@@ -4,13 +4,13 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
-    <string name="slide_1_title">Hello Developer!</string>
+    <string name="slide_1_title">Hello 1</string>
     <string name="slide_1_desc">Kenapa Harus Belajar Desain di Sekolah Desain?</string>
 
-    <string name="slide_2_title">Millions of Users</string>
+    <string name="slide_2_title">Hello 2</string>
     <string name="slide_2_desc">Apa yang Bikin Sekolah Desain Jadi Pilihan Desainer Pemula?</string>
 
-    <string name="slide_3_title">Great No of Devices</string>
+    <string name="slide_3_title">Hello 3</string>
     <string name="slide_3_desc">Apa yang didapatkan di Sekolah desain?</string>
 
 </resources>

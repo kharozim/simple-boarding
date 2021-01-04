@@ -14,7 +14,6 @@ class BoardPagerAdapter(
 ) : PagerAdapter() {
 
     private val mContext = context
-//    private lateinit var layoutInflater: LayoutInflater
 
     private val slideImage = arrayListOf(
         R.drawable.a1,
@@ -46,13 +45,6 @@ class BoardPagerAdapter(
     override fun instantiateItem(container: ViewGroup, position: Int): Any {
         val binding = LayoutSlideBinding.inflate(LayoutInflater.from(mContext))
 
-     /*   val iv_image = view.findViewById<ImageView>(R.id.image_view)
-        val tv_title = view.findViewById<TextView>(R.id.tv_title)
-        val tv_desc = view.findViewById<TextView>(R.id.tv_desc)*/
-
-        /*     iv_image.setImageResource(slideImage[position])
-             tv_title.text = mContext.getText(slideTitle[position])
-             tv_desc.text = mContext.getText(slideDesc[position])*/
         binding.imageView.setImageResource(slideImage[position])
         binding.tvTitle.text = mContext.getText(slideTitle[position])
         binding.tvDesc.text = mContext.getText(slideDesc[position])
